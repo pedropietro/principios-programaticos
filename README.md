@@ -1,6 +1,6 @@
 # Princípio de Programação
 
-Todo programador se beneficia do entendimento de dos princípios de programação e padrões de projeto. Esta visão geral é uma referência para mim mesmo e talvez seja útil para você durante o design, discussão ou revisão. A lista está incompleta e às vezes compensações precisam ser feitas entre princípios conflitantes. No entanto, os princípios de classificação mais alta geralmente superam os de classificação mais baixa.
+Todo programador se beneficia do entendimento dos princípios de programação e padrões de projeto. Esta visão geral é uma referência para mim mesmo e talvez seja útil para você durante o design, discussão ou revisão. A lista está incompleta e às vezes compensações precisam ser feitas entre princípios conflitantes. No entanto, os princípios de classificação mais alta geralmente superam os de classificação mais baixa.
  
 A lista foi inspirada por <!-- markdown-link-check-disable-next-line -->
 [The Principles of Good Programming](https://www.artima.com/weblogs/viewpost.jsp?thread=331531)
@@ -8,7 +8,7 @@ A lista foi inspirada por <!-- markdown-link-check-disable-next-line -->
 [Google's cache](https://webcache.googleusercontent.com/search?q=cache:KU51T8hZ-0kJ:https://www.artima.com/weblogs/viewpost.jsp%3Fthread%3D331531+&cd=1&hl=en&ct=clnk&gl=nl&client=pub-3911176865765226)).
 Eu adicionei um pouco mais de raciocínio, detalhes e links para outros recursos.
 [Let me know](https://github.com/webpro/programming-principles/issues) 
-Eu fiz uma tra dução livre para pt-BR em [princípios programáticos](https://github.com/pedropietro/principios-programaticos/issues) 
+Eu fiz uma tradução livre para pt-BR em [princípios programáticos](https://github.com/pedropietro/principios-programaticos/issues) 
 se você tiver algum feedback ou sugestão de melhoria!
 
 ## Conteúdo
@@ -53,15 +53,13 @@ se você tiver algum feedback ou sugestão de melhoria!
 
 ## KISS
 
-**Keep It Simple, Stupid**: most systems work best if they are kept simple
-rather than made complex.
+**Keep It Simple, Stupid** Deixe Isso Simples, Estúpido: a maioria dos sistemas funciona melhor se forem mantidos mais simples do que complexos.
 
-Why
+Por quê
 
-- Less code takes less time to write, has less bugs, and is easier to modify.
-- Simplicity is the ultimate sophistication.
-- It seems that perfection is reached not when there is nothing left to add, but
-  when there is nothing left to take away.
+- Menos código leva menos tempo para ser escrito, tem menos erros e é mais fácil de modificar.
+- A simplicidade é a sofisticação final.
+- Parece que a perfeição não é alcançada quando não há mais nada a acrescentar, mas quando não há mais nada a tirar.
 
 Resources
 
@@ -70,18 +68,16 @@ Resources
 
 ## YAGNI
 
-**You Aren't Gonna Need It**: don't implement something until it is necessary.
+**You Aren't Gonna Need It** Você não vai precisar disso: não implemente algo até que seja necessário.
 
-Why
+Por quê
 
-- Any work that's only used for a feature that's needed tomorrow, means losing
-  effort from features that need to be done for the current iteration.
-- It leads to code bloat; the software becomes larger and more complicated.
+- Qualquer trabalho que é usado apenas para um recurso que é necessário amanhã significa perder o esforço dos recursos que precisam ser feitos para a iteração atual.
+- Isso leva ao aumento do código; o software fica maior e mais complicado.
 
-How
+Como
 
-- Always implement things when you actually need them, never when you just
-  foresee that you need them.
+- Sempre implemente as coisas quando realmente precisar delas, nunca quando apenas prevê que precisa delas.
 
 Resources
 
@@ -91,12 +87,12 @@ Resources
 
 ## Do The Simplest Thing That Could Possibly Work
 
-Why
+Por quê
 
 - Real progress against the real problem is maximized if we just work on what
   the problem really is.
 
-How
+Como
 
 - Ask yourself: "What is the simplest thing that could possibly work?"
 
@@ -122,13 +118,13 @@ Quoting [Edsger W. Dijkstra](https://en.wikipedia.org/wiki/Edsger_W._Dijkstra)
 > aspects, it is just doing justice to the fact that from this aspect's point of
 > view, the other is irrelevant.
 
-Why
+Por quê
 
 - Simplify development and maintenance of software applications.
 - When concerns are well-separated, individual sections can be reused, as well
   as developed and updated independently.
 
-How
+Como
 
 - Break program functionality into separate modules that overlap as little as
   possible.
@@ -147,7 +143,7 @@ just one place in the source code. Where similar functions are carried out by
 distinct pieces of code, it is generally beneficial to combine them into one by
 abstracting out the varying parts.
 
-Why
+Por quê
 
 - Duplication (inadvertent or purposeful duplication) can lead to maintenance
   nightmares, poor factoring, and logical contradictions.
@@ -156,7 +152,7 @@ Why
 - Additionally, elements that are logically related all change predictably and
   uniformly, and are thus kept in sync.
 
-How
+Como
 
 - Put business rules, long expressions, if statements, math formulas, metadata,
   etc. in only one place.
@@ -184,11 +180,11 @@ Related
 
 ## Code For The Maintainer
 
-Why
+Por quê
 
 - Maintenance is by far the most expensive phase of any project.
 
-How
+Como
 
 - _Be_ the maintainer.
 - Always code as if the person who ends up maintaining your code is a violent
@@ -217,12 +213,12 @@ Quoting [Donald Knuth](https://en.wikiquote.org/wiki/Donald_Knuth):
 
 Understanding what is and isn’t "premature" is critical.
 
-Why
+Por quê
 
 - It is unknown upfront where the bottlenecks will be.
 - After optimization, it might be harder to read and thus maintain.
 
-How
+Como
 
 - [Make It Work Make It Right Make It Fast](http://wiki.c2.com/?MakeItWorkMakeItRightMakeItFast)
 - Don't optimize until you need to, and only after profiling you discover a
@@ -239,14 +235,14 @@ The Boy Scouts of America have a simple rule that we can apply to our
 profession: "Leave the campground cleaner than you found it". The boy scout rule
 states that we should always leave the code cleaner than we found it.
 
-Why
+Por quê
 
 - When making changes to an existing codebase the code quality tends to degrade,
   accumulating technical debt. Following the boy scout rule, we should mind the
   quality with each commit. Technical debt is resisted by continuous
-  refactoring, no matter how small.
+  refactoring, no matter Como small.
 
-How
+Como
 
 - With each commit make sure it does not degrade the codebase quality.
 - Any time someone sees some code that isn't as clear as it should be, they
@@ -263,7 +259,7 @@ interdependence; lower coupling is better. In other words, coupling is the
 probability that code unit "B" will "break" after an unknown change to code unit
 "A".
 
-Why
+Por quê
 
 - A change in one module usually forces a ripple effect of changes in other
   modules.
@@ -274,7 +270,7 @@ Why
 - Developers might be afraid to change code because they aren't sure what might
   be affected.
 
-How
+Como
 
 - Eliminate, minimise, and reduce complexity of necessary relationships.
 - By hiding implementation details, coupling is reduced.
@@ -289,12 +285,12 @@ Resources
 
 Don't talk to strangers.
 
-Why
+Por quê
 
 - It usually tightens coupling
 - It might reveal too much implementation details
 
-How
+Como
 
 A method of an object may only call methods of:
 
@@ -313,7 +309,7 @@ Resources
 It is better to compose what an object can do than extend what it is. Compose
 when there is a "has a" (or "uses a") relationship, inherit when "is a".
 
-Why
+Por quê
 
 - Less coupling between classes.
 - Using inheritance, subclasses easily make assumptions, and break [LSP](#lsp).
@@ -322,7 +318,7 @@ Why
 - Avoid problems often associated with relatively minor changes to an
   inheritance-based model including several generations of classes.
 
-How
+Como
 
 - Identify system object behaviors in separate interfaces, instead of creating a
   hierarchical relationship to distribute behaviors among business-domain
@@ -359,12 +355,12 @@ implementation refuses to collaborate if the received data does not strictly
 follow the specification. A more sophisticated implementation will still work
 ignoring the data it does not recognize.
 
-Why
+Por quê
 
 - Ensure that a provider can make changes to support new demands, while causing
   minimal breakage to their existing clients.
 
-How
+Como
 
 - Code that sends commands or data to other programs or machines should conform
   completely to the specifications, but code that receives input should accept
@@ -384,7 +380,7 @@ framework. It carries the strong connotation that the reusable code and the
 problem-specific code are developed independently even though they operate
 together in an application.
 
-Why
+Por quê
 
 - Increase modularity of the program and make it extensible.
 - To decouple the execution of a task from implementation.
@@ -393,7 +389,7 @@ Why
   contracts.
 - To prevent side effects when replacing a module.
 
-How
+Como
 
 - Using Factory pattern
 - Using Service Locator pattern
@@ -412,7 +408,7 @@ Resources
 Cohesion of a single module or component is the degree to which its
 responsibilities form a meaningful unit. Higher cohesion is better.
 
-Why
+Por quê
 
 - Reduced module complexity
 - Increased system maintainability, because logical changes in the domain affect
@@ -422,7 +418,7 @@ Why
   component they need more easily among the cohesive set of operations provided
   by the module.
 
-How
+Como
 
 - Group related functionalities sharing a single responsibility (e.g. in a
   module or class).
@@ -454,11 +450,11 @@ altering its source code.
 
 **Open/Closed** is the O in [SOLID](#solid).
 
-Why
+Por quê
 
 - Improve maintainability and stability by minimizing changes to existing code.
 
-How
+Como
 
 - Write classes that can be extended (as opposed to classes that can be
   modified).
@@ -480,11 +476,11 @@ one, reason to change.
 
 **SRP** is the S in [SOLID](#solid).
 
-Why
+Por quê
 
 - Maintainability: changes should be necessary only in one module or class.
 
-How
+Como
 
 - Apply [Curly's Law](#Curly-s-Law).
 
@@ -497,12 +493,12 @@ Resources
 A software module hides information (i.e. implementation details) by providing
 an interface, and not leak any unnecessary information.
 
-Why
+Por quê
 
 - When the implementation changes, the interface clients are using does not have
   to change.
 
-How
+Como
 
 - Minimize accessibility of classes and members.
 - Don’t expose member data in public.
@@ -527,11 +523,11 @@ A good design identifies the hotspots that are most likely to change and
 encapsulates them behind an interface. When an anticipated change then occurs,
 the modifications are kept local.
 
-Why
+Por quê
 
 - To minimize required modifications when a change occurs.
 
-How
+Como
 
 - Encapsulate the concept that varies behind an interface.
 - Possibly separate the varying concept into its own module.
@@ -550,11 +546,11 @@ the code that implements it.
 
 **ISP** is the I in [SOLID](#solid).
 
-Why
+Por quê
 
 - Keep a system decoupled and thus easier to refactor, change, and redeploy.
 
-How
+Como
 
 - Avoid fat interfaces. Classes should never have to implement methods that
   violate the
@@ -574,13 +570,13 @@ With this principle applied the programmer can code with much more confidence.
 The query methods can be used anywhere and in any order since they do not mutate
 the state. With commands one has to be more careful.
 
-Why
+Por quê
 
 - By clearly separating methods into queries and commands the programmer can
   code with additional confidence without knowing each method's implementation
   details.
 
-How
+Como
 
 - Implement each method as either a query or a command
 - Apply naming convention to method names that implies whether the method is a
