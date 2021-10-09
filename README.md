@@ -13,7 +13,7 @@ se você tiver algum feedback ou sugestão de melhoria!
 
 ## Contentsúdo
 
-### Geneéricos
+### Genéricos
 
 - [KISS](#kiss)
 - [YAGNI](#yagni)
