@@ -11,7 +11,7 @@ Eu adicionei um pouco mais de raciocínio, detalhes e links para outros recursos
 Eu fiz uma tra dução livre para pt-BR em [princípios programáticos](https://github.com/pedropietro/principios-programaticos/issues) 
 se você tiver algum feedback ou sugestão de melhoria!
 
-## Contentsúdo
+## Conteúdo
 
 ### Genéricos
 
