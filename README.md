@@ -17,7 +17,7 @@ se você tiver algum feedback ou sugestão de melhoria!
 
 - [KISS](#kiss)
 - [YAGNI](#yagni)
-- [Do The Simplest Thing That Could Possibly Work](#do-the-simplest-thing-that-could-possibly-work)
+- [Faça a coisa mais simples que poderia funcionar](#Faça-a-coisa-mais-simples-que-poderia-funcionar)
 - [Separation of Concerns](#separation-of-concerns)
 - [Keep things DRY](#keep-things-dry)
 - [Code For The Maintainer](#code-for-the-maintainer)
@@ -79,24 +79,23 @@ Como
 
 - Sempre implemente as coisas quando realmente precisar delas, nunca quando apenas prevê que precisa delas.
 
-Resources
+Referências
 
 - [You Arent Gonna Need It](http://c2.com/xp/YouArentGonnaNeedIt.html)
 - [You’re NOT gonna need it!](https://ronjeffries.com/xprog/articles/practices/pracnotneed/)
 - [You aren't gonna need it](https://en.wikipedia.org/wiki/You_aren%27t_gonna_need_it)
 
-## Do The Simplest Thing That Could Possibly Work
+## Faça a coisa mais simples que poderia funcionar
 
 Por quê
 
-- Real progress against the real problem is maximized if we just work on what
-  the problem really is.
+- O progresso real contra o problema real é maximizado se trabalharmos apenas no que o problema realmente é.
 
 Como
 
-- Ask yourself: "What is the simplest thing that could possibly work?"
+- Pergunte a si mesmo:"Qual é a coisa mais simples que poderia funcionar?"
 
-Resources
+Referências
 
 - [Do The Simplest Thing That Could Possibly Work](http://c2.com/xp/DoTheSimplestThingThatCouldPossiblyWork.html)
 
