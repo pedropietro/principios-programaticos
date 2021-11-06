@@ -98,7 +98,7 @@ Como
 Referências
 
 - [Do The Simplest Thing That Could Possibly Work](http://c2.com/xp/DoTheSimplestThingThatCouldPossiblyWork.html)
-- [Princípio na Navalha de Ockham](https://pt.wikipedia.org/wiki/Navalha_de_Ockham)
+- [Princípio da Navalha de Ockham](https://pt.wikipedia.org/wiki/Navalha_de_Ockham)
 
 ## Separation of Concerns
 
