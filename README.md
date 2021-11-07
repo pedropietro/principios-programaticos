@@ -102,14 +102,9 @@ Referências
 
 ## Separation of Concerns
 
-Separation of concerns is a design principle for separating a computer program
-into distinct sections, such that each section addresses a separate concern. For
-example, the business logic and the user interface of an application are
-separate concerns. Changing the user interface should not require changes to the
-business logic and vice versa.
+Separation of concerns is a design principle for separating a computer program into distinct sections, such that each section addresses a separate concern. For example, the business logic and the user interface of an application are separate concerns. Changing the user interface should not require changes to the business logic and vice versa.
 
-Quoting [Edsger W. Dijkstra](https://en.wikipedia.org/wiki/Edsger_W._Dijkstra)
-(1974):
+Quoting [Edsger W. Dijkstra](https://en.wikipedia.org/wiki/Edsger_W._Dijkstra)(1974):
 
 > It is what I sometimes have called "the separation of concerns", which, even
 > if not perfectly possible, is yet the only available technique for effective
@@ -121,8 +116,7 @@ Quoting [Edsger W. Dijkstra](https://en.wikipedia.org/wiki/Edsger_W._Dijkstra)
 Por quê
 
 - Simplify development and maintenance of software applications.
-- When concerns are well-separated, individual sections can be reused, as well
-  as developed and updated independently.
+- When concerns are well-separated, individual sections can be reused, as well as developed and updated independently.
 
 Como
 
@@ -306,13 +300,12 @@ Resources
 
 ## Composition Over Inheritance
 
-It is better to compose what an object can do than extend what it is. Compose
-when there is a "has a" (or "uses a") relationship, inherit when "is a".
+É melhor compor o que um objeto pode fazer do que estender o que ele é. Compor quando houver um relacionamento "tem um" (ou "usa um"), herdar quando "for um".
 
 Por quê
 
-- Less coupling between classes.
-- Using inheritance, subclasses easily make assumptions, and break [LSP](#lsp).
+- Menor acoplamento entre classes.
+- Usando herança, as subclasses facilmente fazem suposições e quebram [LSP] (#lsp).
 - Increase flexibility: accommodate future requirements changes, otherwise
   requiring restructuring of business-domain classes in the inheritance model.
 - Avoid problems often associated with relatively minor changes to an
@@ -559,6 +552,8 @@ Como
 Resources
 
 - [Interface segregation principle](https://en.wikipedia.org/wiki/Interface_segregation_principle)
+
+## Dependency Inversion Principle
 
 ## Command Query Separation
 
